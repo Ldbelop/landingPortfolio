@@ -13,7 +13,8 @@ module.exports = {
         blackbg: "#00040D",
         platziblue: "#24385B",
         contactbg: "#242B33",
-        contactTitlebg: "#353F47"
+        contactTitlebg: "#353F47",
+        blackBtn: "#00040D"
       }
     },
   },
