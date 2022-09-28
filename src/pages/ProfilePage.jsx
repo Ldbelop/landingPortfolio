@@ -20,7 +20,7 @@ export default function ProfilePage(){
                 <p className="text-whiteTxt font-light text-[25px] mb-[15px]">
                 A continuación, está mi hoja de vida, donde está más condensada la información acerca de mi.
                 </p>
-                    <button className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[214px] h-[73px] bg-bluishGreyBtn rounded-[25px]">Hoja de vida <ion-icon name="newspaper"></ion-icon></button>
+                    <a href="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/CV%2FCV_DavidBar%C3%B3n_ES.pdf?alt=media&token=3fb7c33d-ddfa-4517-95a9-c8c3c3e23044" className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[230px] h-[73px] bg-bluishGreyBtn rounded-[25px]" target="_blank"><p className="text-[24px] font-bold text-whiteTxt mr-[15px]">Hoja de vida </p><ion-icon name="newspaper"></ion-icon></a>
             </div>
         </div> 
     </div>

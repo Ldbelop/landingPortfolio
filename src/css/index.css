@@ -11,6 +11,12 @@
     background-color: var(--p-color-data);
 }
 
-/* ion-icon{
-    color: #F0F0F0;
-} */
+.clasePrueba{
+    background-color: var(--divCourse-color-data);
+}
+
+body{
+    background-image: linear-gradient(180deg, #00040D 13.02%, rgba(47, 57, 64, 0) 100%),
+    url('https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/bg.jpg?alt=media&token=4cec93b0-775e-44a5-9f14-e9fe16c759b4')
+    ;
+}

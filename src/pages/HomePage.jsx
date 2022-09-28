@@ -7,16 +7,14 @@ export default function HomePage(){
                 <div className="overflow-hidden w-[970.48px] rounded-[40px]">
                     <img className="max-w-none w-[1000px] relative right-[240px] bottom-[400px]" src="https://firebasestorage.googleapis.com/v0/b/superheroes-fakeapi.appspot.com/o/profilePic.jpeg?alt=media&token=6f654e36-6f90-49c7-8e58-6d2394d0e98f" alt="" />
                 </div>
-                <div className="pl-[108px] py-[65px]">
+                <div className="pl-[108px] flex flex-col justify-center max-w-[910px]">
                     <h1 className="text-[71px] font-bold text-whiteTxt leading-[80px]">Hola, soy David Barón, trabajemos juntos!</h1>
                     <p className="mt-[47px] text-[25px] text-whiteTxt font-light">
-                        La programación y el desarrollo de software me apasiona, 
-                        encuentro fascinante absolutamente todo en este mundo del
-                        desarrollo. ¿Trabajamos?
+                        Soy un apasionado por la tecnología y el desarrollo de software, me encuentro estudiando desarrollo Fullstack en <a href="">Platzi</a>, siempre busco aprender algo nuevo y me emociona trabajar en nuevos proyectos, así que te pregunto. <span>¿Trabajamos?</span>.
                     </p>
                     <div className="flex w-[550px] justify-between mt-[51px]">
-                        <button className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[214px] h-[73px] bg-bluishGreyBtn rounded-[25px]">Perfil <ion-icon name="person"></ion-icon></button>
-                        <button className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[214px] h-[73px] bg-bluishGreyBtn rounded-[25px]">GitHub <ion-icon name="logo-github"></ion-icon></button>
+                        <a href="/profile" className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[214px] h-[73px] bg-bluishGreyBtn rounded-[25px]"><p className="text-[24px] font-bold text-whiteTxt mr-[15px]">Perfil</p><ion-icon name="person"></ion-icon></a>
+                        <a href="https://github.com/Ldbelop" className="flex justify-center items-center text-[24px] font-bold text-whiteTxt w-[214px] h-[73px] bg-bluishGreyBtn rounded-[25px]" target="_blank"><p className="text-[24px] font-bold text-whiteTxt mr-[15px]">GitHub</p><ion-icon name="logo-github"></ion-icon></a>
                     </div>
                 </div>
             </div> 
