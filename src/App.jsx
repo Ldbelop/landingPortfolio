@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import ContactPage from "./pages/ContactPage";
@@ -7,7 +6,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ProfilePage from "./pages/ProfilePage";
 import StudiesPage from "./pages/StudiesPage";
 
-function App() {
+function App() {  
   return (
       <BrowserRouter>
         <main className="h-[100%]">

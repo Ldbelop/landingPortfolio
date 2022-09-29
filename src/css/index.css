@@ -20,3 +20,8 @@ body{
     url('https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/bg.jpg?alt=media&token=4cec93b0-775e-44a5-9f14-e9fe16c759b4')
     ;
 }
+
+.input-box{
+    word-wrap: break-word;
+    word-break: break-word;
+}
