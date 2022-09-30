@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function ContactPage(){
-    const [value, setValue] = useState("Escribe tu mensaje")
+    const [value, setValue] = useState("Escribe tu mensaje 1")
 
     function handleChange(event){
         setValue(event.target.value)
@@ -26,7 +26,7 @@ export default function ContactPage(){
     <div className=" overflow-hidden w-[1203px] h-[833px] rounded-[50px] flex flex-col justify-center items-center">
         <h1 className="bg-contactTitlebg w-full h-[13%] font-semibold text-[48px] text-whiteTxt flex items-center pl-[46px]">Contáctame</h1>
         <div className="bg-contactbg w-full h-[87%] py-[25px] px-[40px]">
-            <form action="https://formsubmit.co/baronavilandavid@gmail.com" method="POST" >
+            <form action="https://formsubmit.co/320dc02e6126ba94c7a0ecaadc6b45b0" method="POST" >
                 <div className="flex h-auto">
                     <label className="flex flex-col">
                         <p className="font-semibold text-[24px] text-whiteTxt pl-[33px] w-[100%]">Nombres</p>
