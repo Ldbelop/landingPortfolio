@@ -26,3 +26,21 @@ body{
     word-break: break-word;
 }
 
+#scrollbar::-webkit-scrollbar-track
+{
+	border: 3px solid #353F47;
+	background-color: #b2bec3;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #353F47;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: #ECECEC;
+	border-radius: 10px;
+}
+

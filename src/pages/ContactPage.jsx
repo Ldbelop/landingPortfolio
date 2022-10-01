@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function ContactPage(){
-    const [value, setValue] = useState("Escribe tu mensaje 1")
+    const [value, setValue] = useState("")
 
     function handleChange(event){
         setValue(event.target.value)
@@ -43,10 +43,14 @@ export default function ContactPage(){
                 </label>
                 <label className="flex flex-col mt-[26px]">
                     <p className="font-semibold text-[24px] text-whiteTxt pl-[33px] w-[100%]">Mensaje</p>
-                    <textarea name="mensaje" className="mt-[23px] h-[213px] rounded-[20px] text-[#6A7384] pl-[33px]" value={value} onChange={handleChange} required/>
+                    <textarea name="mensaje" className="pt-[24px] mt-[23px] h-[213px] rounded-[20px] text-[#6A7384] pl-[33px]" value={value} onChange={handleChange} placeholder="Escribe tu mensaje" required/>
                 </label>
-
-                <button type="submit" className="w-[181px] h-[61px] rounded-[20px] mt-[45px] bg-blackBtn font-semibold text-whiteTxt text-[24px] flex justify-center items-center">Envíar <ion-icon name="send"></ion-icon></button>
+                <button type="submit" className="w-[181px] h-[61px] rounded-[20px] mt-[45px] bg-blackBtn font-semibold text-whiteTxt text-[24px] flex justify-center items-center">
+                    Envíar 
+                    <div className="text-whiteTxt text-[30px] flex items-center ml-[20px]">
+                        <ion-icon name="send"></ion-icon>
+                    </div>
+                </button>
             </form>
         </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Proyect from "../components/Proyect";
 
 export default function PortfolioPage(){
-    return <section className="px-[174px] py-[111px]">
+    return <section className="px-[174px] py-[50px]">
         <Proyect 
             proyectName="To-Do App" 
             imageSRC="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/proyect%2Fto-doApp.PNG?alt=media&token=d0814a03-33c6-4e35-8346-66857db02546" 
@@ -25,6 +25,7 @@ export default function PortfolioPage(){
         <Proyect 
             proyectName="Heroes App" 
             imageSRC="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/proyect%2FmarvelAPI.png?alt=media&token=841761f4-14d9-4894-9382-634b3a558788" githubLink="https://github.com/Ldbelop/heroesAPI-consumingApp" 
+            pageLink="https://www.figma.com/file/vO90bCU2VWkkd9RkGSjI14/Marvel-webpage?node-id=0%3A1"
             libs={
                 [
                     {
@@ -40,6 +41,7 @@ export default function PortfolioPage(){
                         text: "Axios"
                     }
                 ]}
+                figmaLink={true}
         >
             Este proyecto consta de una aplicación de React, que consume una Fake API hecha con JSONServer, consiste en un ranking de los mejores 20 superhéroes de DC, los cuales están dentro de la fake API. 
         </ Proyect>
@@ -47,6 +49,7 @@ export default function PortfolioPage(){
             proyectName="App del Clima" 
             imageSRC="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/proyect%2FclimaApp.PNG?alt=media&token=d620297b-ce07-4bf8-97de-6ff866806339" 
             githubLink="https://github.com/Ldbelop/climaApp" 
+            pageLink="https://www.figma.com/file/iBOiUZZRaVEtYZJ6djboJV/Clima-App"
             libs={
                 [
                     {
@@ -58,6 +61,7 @@ export default function PortfolioPage(){
                         text: "Tailwind"
                     },
                 ]}
+                figmaLink={true}
         >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </ Proyect>
