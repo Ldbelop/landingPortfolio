@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ProfilePage(){
-    return <section className="flex flex-col justify-center items-center">
+    return <section className="flex flex-col justify-center items-center pt-[145px]">
     <div className="bg-greybg p-[81px] rounded-[50px] my-[30px] max-w-[1520px]">
         <div className="w-[1337px] h-[528px] flex">
             <div className="grid gap-2 grid-cols-2 grid-rows-[repeat(7,1fr)] w-[1299px] h-[501px] mr-[30px]">

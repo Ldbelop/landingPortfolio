@@ -22,11 +22,13 @@ export default function ContactPage(){
     .then(data => console.log(data))
     .catch(error => console.log(error));
 
-    return <section className="px-[353px] py-[60px] h-auto">
+    return <section className="flex justify-center items-center py-[60px] h-[100vh]">
     <div className=" overflow-hidden w-[1203px] h-[833px] rounded-[50px] flex flex-col justify-center items-center">
         <h1 className="bg-contactTitlebg w-full h-[13%] font-semibold text-[48px] text-whiteTxt flex items-center pl-[46px]">Contáctame</h1>
         <div className="bg-contactbg w-full h-[87%] py-[25px] px-[40px]">
-            <form action="https://formsubmit.co/320dc02e6126ba94c7a0ecaadc6b45b0" method="POST" >
+            <form target="_blank" action="https://formsubmit.co/320dc02e6126ba94c7a0ecaadc6b45b0" method="POST" >
+                <input type="hidden" name="_next" value="https://stalwart-klepon-b4e9eb.netlify.app/thanks" />
+                <input type="hidden" name="_captcha" value="false" />
                 <div className="flex h-auto">
                     <label className="flex flex-col">
                         <p className="font-semibold text-[24px] text-whiteTxt pl-[33px] w-[100%]">Nombres</p>

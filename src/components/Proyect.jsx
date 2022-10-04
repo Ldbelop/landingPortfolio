@@ -9,8 +9,8 @@ export default function Proyect({ proyectName, children, imageSRC, githubLink, p
     else{
         pageOrFigmaLink = <a href={pageLink} className="rounded-[10px] px-[16px] py-[11px] w-[170px] h-[36px] bg-blackbg  text-whiteTxt flex justify-center items-center" target="_blank"><p className="mr-[7px]">Link webpage</p> <ion-icon name="document"></ion-icon></a>;
     }
-    return <div className="flex justify-between items-center  mb-[94px]">
-        <div className="flex items-center bg-whiteTxt max-w-[1390px] h-[480px] rounded-[50px] px-[60px] py-[58px]">
+    return <div className="flex justify-between items-center max-w-[75%] mb-[94px]">
+        <div className="flex items-center bg-whiteTxt max-w-[1390px] h-[480px] rounded-[50px] px-[60px] py-[58px] mr-[20px]">
             <div className="overflow-hidden max-w-[550px] max-h-[497px] rounded-[40px]">
                 <img src={imageSRC} alt="" />
             </div>

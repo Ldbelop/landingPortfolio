@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function HomePage(){
-    return <section className="px-[174px] py-[111px]">
-        <div className="bg-greybg w-[1552px] h-[700px] rounded-[50px] px-[108px] py-[81px]">
-            <div className="w-[1337px] h-[528px] flex">
-                <div className="overflow-hidden w-[970.48px] rounded-[40px]">
-                    <img className="max-w-none w-[1000px] relative right-[240px] bottom-[400px]" src="https://firebasestorage.googleapis.com/v0/b/superheroes-fakeapi.appspot.com/o/profilePic.jpeg?alt=media&token=6f654e36-6f90-49c7-8e58-6d2394d0e98f" alt="" />
+    return <section className="flex justify-center items-center py-[111px] h-[100vh]">
+        <div className="bg-greybg max-w-[1552px] max-h-[700px] rounded-[50px] px-[108px] py-[81px]">
+            <div className="max-w-[1337px] max-h-[528px] flex">
+                <div className="overflow-hidden max-w-[970.48px] rounded-[40px]">
+                    <img className="min-w-[361px] max-w-[1000px] relative right-[240px] bottom-[400px]" src="https://firebasestorage.googleapis.com/v0/b/superheroes-fakeapi.appspot.com/o/profilePic.jpeg?alt=media&token=6f654e36-6f90-49c7-8e58-6d2394d0e98f" alt="" />
                 </div>
                 <div className="pl-[108px] flex flex-col justify-center max-w-[910px]">
                     <h1 className="text-[71px] font-bold text-whiteTxt leading-[80px]">Hola, soy David Barón, trabajemos juntos!</h1>

@@ -2,7 +2,7 @@ import React from "react";
 import Proyect from "../components/Proyect";
 
 export default function PortfolioPage(){
-    return <section className="px-[174px] py-[50px]">
+    return <section className="flex flex-col justify-center items-center py-[50px] pt-[145px]">
         <Proyect 
             proyectName="To-Do App" 
             imageSRC="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/proyect%2Fto-doApp.PNG?alt=media&token=d0814a03-33c6-4e35-8346-66857db02546" 
@@ -63,7 +63,7 @@ export default function PortfolioPage(){
                 ]}
                 figmaLink={true}
         >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Este proyecto consta de una aplicación del clima, cuya API reconoce la ubicación del usuario y muestra los datos geolocalizados del clima, también posee una barra buscadora que permite encontrar la locación que el usuario desee.
         </ Proyect>
 </section>
 }

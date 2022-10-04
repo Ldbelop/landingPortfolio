@@ -3,7 +3,7 @@ import School from "../components/School";
 import Course from "../components/Course";
 
 export default function StudiesPage(){
-    return <section className="px-[174px] py-[111px] h-auto">
+    return <section className="flex flex-col justify-center items-center py-[111px] h-auto pt-[145px]">
     <div className="bg-platziblue w-[1552px] h-auto rounded-[50px] px-[108px] py-[81px] flex justify-center items-center">
         <div className="w-[1438px] h-[1auto">
             <img className="h-[70px]" src="https://firebasestorage.googleapis.com/v0/b/personal-landing-540bc.appspot.com/o/logos%2FplatziLogo.png?alt=media&token=97a2066a-ca5f-4f85-b51d-3b14d3f0c14f" alt="Platzi Logo" />
